@@ -11,32 +11,32 @@
     padding-right: 25px;
 }
 
-.py-25 {
-    padding-top: 25px;
-    padding-bottom: 25px;
+.py-18 {
+    padding-top: 18px;
+    padding-bottom: 18px;
 }
 
 .ml-25 {
     margin-left: 25px;
 }
 
-.my-25 {
-    margin-top: 25px;
-    margin-bottom: 25px;
+.my-18 {
+    margin-top: 18px;
+    margin-bottom: 18px;
 }
 
-.mt-45 {
-    margin-top: 45px;
+.mt-35 {
+    margin-top: 35px;
 }
 
 /* End re-usable classes */
 
 body {
-    margin: 50px 0px;
+    margin: 60px 0 0px 0px;
 }
 
 .container {
-    width: 600px;
+    width: 580px;
     margin: 50px auto;
     padding: 0px 40px;
     user-select: none;
@@ -46,6 +46,13 @@ body {
     border-radius: 3.615px;
     outline: 1.904px solid #C8C8C8;
     cursor: pointer;
+    transition: all .5s ease;
+}
+
+.box:hover{
+    display: block;
+    outline: 1.904px solid #007F61;
+    background: #F4FBF9;
 }
 
 .heading {
@@ -83,25 +90,25 @@ body {
 .radioBtn {
     width: 22.461px;
     height: 22.461px;
-    border-radius: 50%; 
+    border-radius: 50%;
     outline: 2px solid #DADADA;
     position: relative;
 }
 
 .radioBtn div {
-    width: 15.461px;
-    height: 15.461px;
+    width: 14.461px;
+    height: 14.461px;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 49%;
     transform: translate(-50%, -50%);
-    border-radius: 50%; 
+    border-radius: 50%;
 }
 
 .rdo-btn-dv1 {
     color: #000;
     font-family: sans-serif;
-    font-size: 18.461px;
+    font-size: 15.461px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -111,7 +118,7 @@ body {
 .rdo-btn-dv2 {
     color: #000;
     font-family: sans-serif;
-    font-size: 18.461px;
+    font-size: 15.461px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -133,7 +140,7 @@ body {
 .s-controller h2,
 .c-controller h2 {
     margin: 10px 0px;
-    font-size: 14.942px;
+    font-size: 13.942px;
     font-style: normal;
     font-weight: 400;
     font-family: sans-serif;
@@ -167,7 +174,7 @@ select {
     padding: 10px;
     border: 0.904px solid #D9D9D9;
     border-radius: 1.808px;
-    font-size: 16.846px;
+    font-size: 14.846px;
     font-style: normal;
     font-weight: 400;
     outline: none;
@@ -223,6 +230,15 @@ select {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+}
+
+.owner {
+    padding: 20px 0px;
+    text-align: right;
+    font-size: 13px; 
+    font-weight: 300;
+    line-height: normal;
+    color: #000; 
 }
 
 /* ------------------ Dynamik Styles ----------------------- */
